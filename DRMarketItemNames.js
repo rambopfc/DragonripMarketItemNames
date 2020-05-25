@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         DragonRip Market Item Names
-// @namespace    https://www.dragonrip.com/game/
+// @namespace    https://dragonrip.com/game/
 // @version      0.1
 // @description  Display item names in the market list
 // @author       Joe
-// @match        https://www.dragonrip.com/game/market*
+// @match        https://dragonrip.com/game/market*
 // @grant        none
 // ==/UserScript==
 
