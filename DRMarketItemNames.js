@@ -9,8 +9,6 @@
 // @grant        none
 // ==/UserScript==
 
-//add margin top/bottom .5em on name to clean it up a bit
-
 window.addEventListener('load', function() {
     var title
 	//get all objects in the table of resources
@@ -20,7 +18,7 @@ window.addEventListener('load', function() {
         title = element.parentElement.getAttribute('title');
 		//checks to see if it is an item in the list and not in the players bag, then checks that it is not an equipped pet
         if (element.parentElement.parentElement.nodeName == "TD" && element.parentElement.parentElement.style.width != "30%"){
-			//add the item name to the correct section, and remove some empty space around it
+		//add the item name to the correct section, and remove some empty space around it
             var para = document.createElement("p");
             var node = document.createTextNode(title);
             para.style.marginTop = ".5em";
