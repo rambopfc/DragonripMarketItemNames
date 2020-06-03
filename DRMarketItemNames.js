@@ -5,6 +5,7 @@
 // @description  Display item names in the market list
 // @author       Joe
 // @match        https://dragonrip.com/game/market*
+// @match        https://www.dragonrip.com/game/market*
 // @grant        none
 // ==/UserScript==
 
