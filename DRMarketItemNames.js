@@ -16,8 +16,8 @@ window.addEventListener('load', function() {
     Array.from(imagehref).forEach(function(element, index, array){
 		//item name
         title = element.parentElement.getAttribute('title');
-		//checks to see if it is an item in the list and not in the players bag, then checks that it is not an equipped pet
-        if (element.parentElement.parentElement.nodeName == "TD" && element.parentElement.parentElement.style.width != "30%"){
+		//checks to see if it is an item in the list and not in the players bag, then checks that it is not anything on the right side
+        if (element.parentElement.parentElement.nodeName == "TD" && element.parentElement.parentElement.parentElement.parentElement.parentElement.parentElement.className != "burbul"){
 		//add the item name to the correct section, and remove some empty space around it
             var para = document.createElement("p");
             var node = document.createTextNode(title);
