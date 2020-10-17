@@ -6,6 +6,7 @@
 // @author       Joe
 // @match        https://dragonrip.com/game/market*
 // @match        https://www.dragonrip.com/game/market*
+// @run-at document-start
 // @grant        none
 // ==/UserScript==
 
