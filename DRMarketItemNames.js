@@ -6,10 +6,9 @@
 // @author       Joe
 // @match        https://dragonrip.com/game/market*
 // @match        https://www.dragonrip.com/game/market*
-// @run-at document-start
+// @run-at       document-start
 // @grant        none
 // @downloadURL https://raw.githubusercontent.com/rambopfc/DragonripMarketItemNames/master/DRMarketItemNames.js
-// @updateURL https://raw.githubusercontent.com/rambopfc/DragonripMarketItemNames/master/DRMarketItemNames.js
 // ==/UserScript==
 
 window.addEventListener('load', function() {
