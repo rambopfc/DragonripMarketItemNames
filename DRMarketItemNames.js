@@ -1,13 +1,15 @@
 // ==UserScript==
 // @name         DragonRip Market Item Names
 // @namespace    https://dragonrip.com/game/
-// @version      0.1
+// @version      0.2
 // @description  Display item names in the market list
 // @author       Joe
 // @match        https://dragonrip.com/game/market*
 // @match        https://www.dragonrip.com/game/market*
 // @run-at document-start
 // @grant        none
+// @downloadURL https://raw.githubusercontent.com/rambopfc/DragonripMarketItemNames/master/DRMarketItemNames.js
+// @updateURL https://raw.githubusercontent.com/rambopfc/DragonripMarketItemNames/master/DRMarketItemNames.js
 // ==/UserScript==
 
 window.addEventListener('load', function() {
